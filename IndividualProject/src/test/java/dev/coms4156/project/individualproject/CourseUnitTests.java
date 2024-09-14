@@ -88,4 +88,6 @@ public class CourseUnitTests {
     assertEquals(expectedTime, testCourse.getCourseTimeSlot());
   }
 
+  /** The test course instance used for testing. */
+  public static Course testCourse;
 }
