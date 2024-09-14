@@ -1,0 +1,13 @@
+Course.java:
+* Changed the default student count from 500 to 0 in the constructor
+* The getter functions for location and instructor had swapped functionality
+* The dropStudent and enrollStudent methods do not perform a check on current student enrollment first
+* The condition in the isCourseFull function was incorrect
+
+Department.java:
+* Some getter method return values are stringified
+* Missing condition in the dropPersonFromMajor() method
+* Included "this" keyword when referencing class attributes
+
+RouteController.java:
+* Many HTTP status codes were incorrect
